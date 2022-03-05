@@ -1,4 +1,6 @@
 .app__sub {
-    height: 30rem;
+    height: 10rem;
     background: var(--color-golden);
+    position: relative;
+    z-index: 1;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FiFacebook, FiTwitter, FiInstragram } from 'react-icons/fi'
+import { FiFacebook, FiTwitter, FiGithub } from 'react-icons/fi'
 
 import {FooterOverlay} from '../../components'
 
@@ -28,6 +28,7 @@ const Footer = () => (
     <div className='app__footer-work'>
         <p><FiFacebook></FiFacebook></p>
         <p><FiTwitter></FiTwitter></p>
+        <p><FiGithub></FiGithub></p>
     </div>
     <div className='app__footer-copyright'>
       <p className="p__opensans"> { new Date().getFullYear() } © tous doit réserver </p>

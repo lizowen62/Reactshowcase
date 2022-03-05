@@ -3,5 +3,46 @@
     justify-content: center;
     align-items: center;
     background: var(--color-golden);
-    height: 20rem;
+    height: 40rem;
+    z-index: 1;
+    position: relative;
+}
+
+.app__description {
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: black;
+    border: 1px solid gray;
+    position: absolute;
+    text-align: center;
+    top: 10em;
+    right: 5em;
+    height: 25em;
+    max-width: 18em;
+    box-shadow: 1px 1px 5px black;
+}
+
+.app__description h2 {
+    color: gold;
+    font-size: large;
+    font-style: oblique;
+    text-align: center;
+    border-bottom: 0.5px solid gray;
+    padding-bottom: 0.5rem;
+}
+
+.app__description p {
+    padding-top: 1rem;
+    font-size: small;
+}
+
+.app__description p:nth-child(2) {
+    color: gray;
+    font-size: 11px;
+}
+
+.app__description h2 p {
+    font-size: small;
 }

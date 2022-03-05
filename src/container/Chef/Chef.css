@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     background: var(--color-black);
+    z-index: 1;
+    position: relative;
 }
 
 .app__tutorial {

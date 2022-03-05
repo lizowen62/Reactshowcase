@@ -1,6 +1,7 @@
 .app__navbar {
     width: 100%;
-    position: -webkit-sticky;
+    position: fixed;
+    z-index: 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
