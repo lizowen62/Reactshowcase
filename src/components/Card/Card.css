@@ -1,0 +1,41 @@
+h2 {
+    color: white;
+}
+
+.app__card:nth-child(2n) {
+    justify-content: flex-end;
+    /* background-color: lime; */
+}
+
+.app__card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card__content {
+    background: rgba(27, 27, 27, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgba(0, 0, 0, 0.36);
+    padding: 0.2rem;
+    max-width: 20rem;
+}
+
+.card__content-border h2 {
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5em;
+}
+
+.card__content-border {
+    border: 0.1rem solid grey;
+    padding:1rem;
+}
+
+.card__content-border p {
+    padding-top: 1rem;
+    font-style: italic;
+    color: darkgrey;
+}
+

@@ -1,0 +1,7 @@
+.app__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-golden);
+    height: 20rem;
+}

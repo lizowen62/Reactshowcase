@@ -3,8 +3,7 @@ import React from 'react';
 import './SpecialMenu.css';
 
 const SpecialMenu = () => (
-  <div>
-    SpecialMenu
+  <div className='app__header'>
   </div>
 );
 
