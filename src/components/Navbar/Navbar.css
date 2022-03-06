@@ -7,6 +7,7 @@
     align-items: center;
     background: var(--color-black);
     padding: 1rem 2rem;
+    border-bottom: 0.5px solid grey;
 }
 
 .app__navbar-logo {
@@ -21,8 +22,9 @@
 
 .app__navbar-links {
     flex: 1;
+    padding-left: 1rem;
     color:white;
-    justify-content: center;
+    justify-content: flex-start;
     display: flex;
     list-style: none;
 }

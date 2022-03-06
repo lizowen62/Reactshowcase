@@ -10,16 +10,12 @@ const Navbar = () => (
       <img src={images.gericht} alt='app logo'></img>
     </div>
     <ul className='app__navbar-links'>
-      <li className='app__opensans'><a href="#">Home</a></li>
-      <li className='app__opensans'><a href="#">Home</a></li>
-      <li className='app__opensans'><a href="#">Home</a></li>
-      <li className='app__opensans'><a href="#">Home</a></li>
-      <li className='app__opensans'><a href="#">Home</a></li>
+      <li className='app__opensans'><a href="#">Etudes</a></li>
+      <li className='app__opensans'><a href="#">Projets</a></li>
+      <li className='app__opensans'><a href="#">Travaux</a></li>
     </ul>
     <div className='app__navbar-login'>
-      <a href="#login" className='app__opensans'>sign</a>
-      <div></div>
-      <a href="#sign" className='app__opensans'>login</a>
+      <a href="#login" className='app__opensans'>Me Contacter</a>
     </div>
     <div className='app__navbar-small'>
       

@@ -23,7 +23,7 @@ h2 {
     max-width: 20rem;
 }
 
-.card__content-border h2 {
+.card__header h2 {
     border-bottom: 1px solid white;
     padding-bottom: 0.5em;
 }
@@ -33,9 +33,23 @@ h2 {
     padding:1rem;
 }
 
+.card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .card__content-border p {
     padding-top: 1rem;
     font-style: italic;
     color: darkgrey;
+}
+
+.card__header p {
+    border: 1px solid grey;
+    border-radius: 0.5em;
+    margin: 0 0.3em;
+    padding: 0.5em;
+    color: var(--color-golden) !important;
 }
 

@@ -21,7 +21,7 @@
     right: 5em;
     height: 25em;
     max-width: 18em;
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 5px 3px black;
 }
 
 .app__description h2 {

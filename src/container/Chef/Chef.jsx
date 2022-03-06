@@ -9,9 +9,9 @@ import './Chef.css';
 
 const tuto = [
   {"Title": "fisrt step", "description": " choose a drink jiookkopu huihuib fytffufyigi"},
-  {"Title": "second step", "description": " choose a drink"},
-  {"Title": "third step", "description": " choose a drink"},
-  {"Title": "forth step", "description": " choose a drink"},
+  {"Title": "second step", "description": " choose a drink jofzrfepfj fslkvjsdmlkdz"},
+  {"Title": "third step", "description": " choose a drinkfeoifeoirej ferifjeofjpzeodpzedorfkkkf"},
+  {"Title": "forth step", "description": " choose a drink dzoeifzrofjevi eidzi fejrfoerkvt"},
 ]
 
 const Chef = () => {

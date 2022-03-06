@@ -36,7 +36,11 @@ const Card = ({item}) => {
             transition={{type:'spring', duration: 1, bounce: 0.3}}>
                 <div className='card__content'>
                     <div className='card__content-border'>
-                        <h2>{item.Title}</h2>
+                        <div className='card__header'>
+                            <h2>{item.Title}</h2>
+                            <p className='p__opensans'>Teg</p>
+                            <p className='p__opensans'>Teg</p>
+                        </div>
                         <p className='p__opensans'>{item.description}</p>
                     </div>
                 </div>
